@@ -17,9 +17,80 @@
             text-align: center;
             font-weight: 700;
         }
+        .middle:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: green;
+        }
+
+        .flower li:nth-child(n){
+            color: crimson;
+            font-weight: 900;
+        }
+
+        .alia li:first-child{
+            color: chocolate;
+        }
+        .alia li:last-child{
+            background-color: cornflowerblue;
+        }
+        .alia li:nth-child(2n){
+            color: crimson;
+        }
+        .alia li:nth-child(2n+1){
+            background-color: darkgray;
+        }
+
+        h3::before{
+            content: 'Hello ';
+        }
+        h3::after{
+            content: ' Gelo';
+            background-color: darkkhaki;
+            font-size: 40px;
+        }
+        .special::after{
+            content: 'Special';
+            background-color: darkgreen;
+            font-size: 50px;
+        }
     </style>
 </head>
 <body>
     <h1>This is normal</h1>
+    <input type="text" name="" id="">
+    <input class="middle" type="text" name="" id="">
+    <input type="text" name="" id=""><br>
+    <a href="https://web.programming-hero.com/home/">programming-hero</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjAhJ-wjrj8AhUwDLcAHdr8C-wQFnoECBoQAQ&url=https%3A%2F%2F99designs.com%2F&usg=AOvVaw1CYZ09Ti3eD-_obUSkKuQ_">99design</a>
+
+    <ul class="flower">
+        <li>Rose</li>
+        <li>Sunflower</li>
+        <li>Tulip</li>
+        <li>Cosmos</li>
+        <li>Lotus</li>
+    </ul>
+    <ul class="alia">
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Salia</li>
+        <li>Galaia</li>
+        <li>Jalaia</li>
+        <li>maria</li>
+        <li>sadia</li>
+        <li>sabaia</li>
+    </ul>
+
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
 </body>
 </html>
